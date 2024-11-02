@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Roboto:wght@400;700&display=swap');
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  width: 1500px;
+  box-sizing: border-box;
+  margin: 28px auto 0;
+  padding: 0 30px;
+}
+
+.icon-switch {
+  font-size: 36px;
+}
+
+.shop {
+  width: 1500px;
+  box-sizing: border-box;
+  padding: 0px 72px;
+  font-family: sans-serif;
+}
+
+.card-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 47px;
+  column-gap: 50px;
+  margin: 56px auto;
+}
+
+.shop__product {
+  display: flex;
+  font-family: 'Asap Condensed', sans-serif;
+  text-align: center;
+  background-color: #f5f5f6;
+}
+
+.shop__product_card {
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 350px;
+  height: 284px;
+  padding: 22px 0;
+  border-radius: 5px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: top -5px left 25px;
+  box-shadow: 0 10px 15px #a2a2a2;
+}
+
+.shop__product__name {
+  margin-bottom: 12px;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.shop__product__color {
+  font-size: 16px;
+}
+
+.shop__product__buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 175px 45px 0;
+}
+
+.shop__product__buy_price {
+  font-size: 20px;
+  color: #d33f34;
+}
+
+.shop__product__buy_btn {
+  width: 130px;
+  padding: 10px;
+  color: #d33f34;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #d33f34;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.list-view {
+  display:flex;
+  flex-direction: column;
+  row-gap: 2px;
+  margin: 20px auto;
+  padding: 8px 10px 8px 48px;
+}
+
+.shop__product_item {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  padding: 25px 10px 25px 375px;
+  background-color: #f5f5f6;
+  background-size: auto 140px;
+  background-repeat: no-repeat;
+  background-position: top -40px left 0;
+}
